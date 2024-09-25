@@ -13,22 +13,22 @@ You need to have a C++ compiler installed on your system. Common options include
 ###### Stack Implementation Using Array in C++
 A stack is a linear data structure that follows the Last In First Out (LIFO) principle, meaning that the last element added to the stack is the first one to be removed. It is commonly used in programming for tasks like expression evaluation, backtracking, recursive function calls, and undo operations in editors.
 
-######Key Operations in a Stack:
+###### Key Operations in a Stack:
 -Push: Adds an element to the top of the stack.
 -Pop: Removes and returns the top element from the stack.
 -Peek/Top: Returns the top element without removing it.
 -isEmpty: Checks if the stack is empty.
 
 Components of Stack Implementation
-####### Top Variable:
+###### Top Variable:
 
 The variable top is used to keep track of the index of the top element in the stack. Initially, it is set to -1, indicating an empty stack.
 After each push operation, top is incremented, and after each pop operation, it is decremented.
-####### Push Operation:
+###### Push Operation:
 
 When pushing a new element into the stack, the program checks if the stack has space by comparing top to the maximum size (MAX - 1). If the stack is full, a stack overflow occurs.
 Otherwise, the new element is added to the array at arr[top + 1], and top is incremented.
-####### Pop Operation:
+###### Pop Operation:
 
 When removing an element from the stack, the program checks if the stack is empty by checking if top < 0. If the stack is empty, a stack underflow occurs.
 Otherwise, the top element is returned, and top is decremented.
