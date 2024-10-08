@@ -1,4 +1,4 @@
-# EXP-17
+# EXP-18
 ## Aim
 
 - To Implement Stack Implementation Using Array.
@@ -43,7 +43,7 @@ Stack Underflow: This occurs when trying to pop an element from an empty stack. 
 ```cpp
 
 //RIDDHI LOKHANDE 
-//EXP 17 A
+//EXP 18 A
 //23070123107
 //ENTC B2
 
@@ -134,7 +134,7 @@ int main()
 ## CODE 2 
 ```cpp
 //RIDDHI LOKHANDE 
-//EXP 17 b
+//EXP 18 b
 //23070123107
 //ENTC B2
 #include <iostream>
@@ -218,7 +218,7 @@ int main() {
 ```cpp
 
 //RIDDHI LOKHANDE 
-//EXP 17 C
+//EXP 18 C
 //23070123107
 //ENTC B2
 #include <iostream>
